@@ -1,0 +1,29 @@
+:root{
+
+}
+
+*{
+    margin: 0;
+    padding: 0;
+}
+
+nav{
+    width: 100%;
+    height: 100px;
+    display: flex;
+    justify-content: space-around; 
+    background-color: brown;   
+    align-items: center;
+}
+
+.pages ul{
+    display: flex;
+}
+
+.pages li{
+    margin: 10px;
+    width: 50px;
+    height: 15px;
+    list-style: none;
+    background-color: aliceblue;
+}
