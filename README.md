@@ -1,33 +1,71 @@
-Hello World!
+# TurGuaribe
 
-Pontos turisticos a serem adicionados:
+Projeto de Desenvolvimento Web criado para divulgar os principais destinos turísticos do **Vale do Jaguaribe**, no estado do Ceará. O site apresenta praias, patrimônio histórico, paisagens naturais e pontos culturais da região por meio de uma interface simples, responsiva e de fácil navegação.
 
-Canoa Quebrada (Aracati)
-Um dos destinos mais famosos do Ceará, conhecido pelas falésias coloridas, praias, passeios de buggy e a Broadway, principal rua da vila.
+## Demonstração
 
-Praia de Majorlândia (Aracati)
-Praia tranquila com falésias avermelhadas e tradição no artesanato em areia colorida.
+O projeto é composto por páginas estáticas desenvolvidas com **HTML5** e **CSS3**.
 
-Centro Histórico de Aracati
-Possui casarões coloniais, igrejas e ruas de pedra, sendo um importante patrimônio histórico do estado.
+Principais páginas:
 
-Rio Jaguaribe
-Maior rio do Ceará, ideal para passeios de barco, pesca e contemplação da paisagem em diversos municípios da região.
+* **Início** — galeria de destinos turísticos;
+* **Sobre** — informações sobre o projeto e a região;
+* **Contato** — formulário para agendamento de turismo.
 
-Barragem do Castanhão (Alto Santo/Jaguaribara)
-Maior reservatório de água do Ceará, com passeios de lancha, pesca esportiva e atividades de lazer.
+---
 
-Nova Jaguaribara
-Cidade planejada construída após a formação do Açude Castanhão. É conhecida pelo planejamento urbano e pelas histórias da antiga cidade submersa.
+## Tecnologias utilizadas
 
-Ruínas da Antiga Jaguaribara
-Quando o nível da água do Castanhão baixa, partes da antiga cidade podem ser vistas, tornando-se uma atração histórica.
+* **HTML5**
+* **CSS3**
+* **Google Fonts (Archivo Black)**
+* **Vite (ambiente de desenvolvimento)**
 
-Sítio Arqueológico de Quixadá do Meio (Jaguaribe)
-Área com inscrições rupestres que registram a presença de povos pré-históricos na região.
+---
 
-Praia de Quixaba (Aracati)
-Praia menos movimentada, muito procurada para descanso, esportes aquáticos e gastronomia regional.
+## Funcionalidades
 
-Igreja Matriz de Nossa Senhora do Rosário (Russas)
-Um dos principais monumentos históricos do Vale do Jaguaribe, representando a arquitetura religiosa e a história da colonização da região.
+* Layout responsivo para desktop e dispositivos móveis;
+* Navegação entre páginas;
+* Cards com imagens de pontos turísticos;
+* Formulário de contato;
+* Rodapé padronizado em todas as páginas.
+
+---
+
+## Como executar
+
+1. Clone o repositório:
+
+```bash
+git clone https://github.com/seu-usuario/TurGuaribe.git
+```
+
+2. Acesse a pasta do projeto:
+
+```bash
+cd TurGuaribe
+```
+
+3. Abra o arquivo `index.html` no navegador.
+
+Também é possível utilizar a extensão **Live Server** do VS Code para visualizar o projeto em tempo real.
+
+---
+
+## Destinos apresentados
+
+* Canoa Quebrada
+* Majorlândia
+* Centro Histórico de Aracati
+* Rio Jaguaribe
+* Barragem do Castanhão
+* Nova Jaguaribara
+* Ruínas da Antiga Jaguaribara
+* Sítio Arqueológico de Quixadá
+* Quixaba
+* Igreja Matriz de Nossa Senhora do Rosário
+
+---
+
+

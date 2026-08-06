@@ -1,5 +1,5 @@
 :root{
-    --primary-color: brown;
+    --primary-color: #0B7285;
     --light-color: white;
     --shadow: 
      8px 8px 16px rgba(0, 0, 0, 0.08), 
@@ -16,7 +16,6 @@ a{
   text-decoration: none;
   color: inherit;
 }
-
 
 nav{
     width: 100%;
