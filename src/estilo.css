@@ -115,11 +115,13 @@ footer{
     display: flex;
     flex-direction: column;
     background-color: var(--light-color);
+    gap: 20px;
     width: 1000px;
     height: auto;
     margin: 20px;
-    padding: 20px;
+    padding: 40px;
     border-radius: 12px;
+    line-height: 1.5;
     box-shadow: var(--shadow);
 }
 
@@ -129,6 +131,10 @@ footer{
 .about p, .about ul{
     font-family: Arial, Helvetica, sans-serif;
     list-style: disc;
+}
+
+.about-iframe{
+    margin: 30px;
 }
 
 .contact{
