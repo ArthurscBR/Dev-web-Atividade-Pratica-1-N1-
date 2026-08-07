@@ -38,7 +38,7 @@ Principais páginas:
 1. Clone o repositório:
 
 ```bash
-git clone https://github.com/seu-usuario/TurGuaribe.git
+git clone https://github.com/ArthurscBR/TurGuaribe.git
 ```
 
 2. Acesse a pasta do projeto:

@@ -1,6 +1,7 @@
 :root{
     --primary-color: #0B7285;
     --light-color: white;
+    --grey-bg: #F8F9FA;
     --shadow: 
      8px 8px 16px rgba(0, 0, 0, 0.08), 
     -8px -8px 16px rgba(255, 255, 255, 1);
@@ -31,7 +32,7 @@ nav{
 footer{
     display: flex;
     justify-content: center;
-        align-items:center;
+    align-items:center;
 
     height:60px;
 
@@ -79,7 +80,8 @@ footer{
     display: flex;
     flex-direction: column;
     align-items: center;
-    background-color: var(--light-color);
+    background-color: var(--grey-bg);
+    font-family: Arial, Helvetica, sans-serif;
     width: 450px;
     height: 600px;
     margin: 20px;
@@ -94,8 +96,29 @@ footer{
     margin: 20px;
 }
 
-.about{
+.card p{
+    width: 300px;
+    height: 300px;
+    margin-top: 30px;
+}
 
+.about{
+    display: flex;
+    flex-direction: column;
+    width: 1000px;
+    height: auto;
+    margin: 20px;
+    padding: 20px;
+    border-radius: 12px;
+    box-shadow: var(--shadow);
+}
+
+.about h1, h2, h3{
+    font-family: 'Archivo Black', sans-serif;
+}
+.about p, .about ul{
+    font-family: Arial, Helvetica, sans-serif;
+    list-style: disc;
 }
 
 .contact{
@@ -109,8 +132,8 @@ footer{
     gap: 50px;
     outline: 0.1px solid grey;
     border-radius: 12px;
-    font-family: 'Archivo Black', sans-serif;
     box-shadow: var(--shadow);
+    font-family: 'Archivo Black', sans-serif;
 }
 
 .contact input, .contact button{
